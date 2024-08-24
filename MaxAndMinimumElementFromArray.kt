@@ -1,4 +1,5 @@
 fun main() {
+    
     var array=intArrayOf(10,20,32,45,78,232,892)
     var maxNumber=findMaxElementFromArray(array)
     println("maximum element in an Array::  $maxNumber")
@@ -15,7 +16,7 @@ fun main() {
         }
     }
     return minimum
-    
+
    }
 
 
