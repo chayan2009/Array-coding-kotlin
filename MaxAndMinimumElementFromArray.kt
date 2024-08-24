@@ -15,9 +15,10 @@ fun main() {
         }
     }
     return minimum
+    
    }
 
-   
+
    fun findMaxElementFromArray(arr:IntArray):Int{
 
      var maximum= arr[0]
