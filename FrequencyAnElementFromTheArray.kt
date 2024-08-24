@@ -10,4 +10,5 @@ fun main(){
         hashMap[i]=hashMap.getOrDefault(i,0)+1
     }
     println("hashmap::$hashMap")
+    
 }
