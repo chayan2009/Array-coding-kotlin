@@ -6,7 +6,7 @@
     println("Are equal : ${areArraysEqual(array1,array2)}")
 
     //Approach2
-  //  println("Are equal loop : ${areArraysEqual1(array1,array2)}")
+    println("Are equal loop : ${areArraysEqual1(array1,array2)}")
 
 }
 
