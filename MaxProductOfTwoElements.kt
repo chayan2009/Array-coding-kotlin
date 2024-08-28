@@ -1,8 +1,7 @@
 fun main(){
     println("Find the Maximum Product of Two Elements")
     var arr = intArrayOf(1,2,22,4,44,5,55,56,76,777,888,23)
-    println(maxProductOfTwoElements(arr))  // Output: 56 (7 * 8)
-
+    println(maxProductOfTwoElements(arr))  
 }
 
 fun maxProductOfTwoElements(arr:IntArray):Int{
