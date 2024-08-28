@@ -17,7 +17,7 @@ fun twoPointerusingMergeTwoArray(arr1: IntArray, arr2: IntArray): IntArray {
     var i=0
     var j =0
     var k =0
-    
+
     while(i<arr1.size && j<arr2.size){
         if(arr1[i]<=arr2[j]){
             mergeArray[k]=arr1[i]
@@ -29,8 +29,8 @@ fun twoPointerusingMergeTwoArray(arr1: IntArray, arr2: IntArray): IntArray {
         k++
     }    
 
-    print(arr1.joinToString(","))
-    print(arr2.joinToString(","))
+    print("Array1::${arr1.joinToString(",")}")
+    print("Array2::${arr2.joinToString(",")}")
 
     while(i<arr1.size){
         mergeArray[k]=arr1[i]
@@ -43,5 +43,7 @@ fun twoPointerusingMergeTwoArray(arr1: IntArray, arr2: IntArray): IntArray {
         i++
         k++
     }
+    
     return mergeArray
+
 }
