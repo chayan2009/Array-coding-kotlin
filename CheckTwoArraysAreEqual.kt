@@ -2,6 +2,8 @@
     var array1=intArrayOf(1,2,3,4)
     var array2=intArrayOf(1,2,3,4)
 
+    println("Two array are equal or not")
+    
     //Apprach1
     println("Are equal : ${areArraysEqual(array1,array2)}")
 
